@@ -13,8 +13,7 @@ export const AuthApi = createApi({
             query:(id) => `/products/${id}`
         }),
         getProductByName:builder.query({
-
-            query:(name) =>  `/products/${name}`
+            query:() =>  `/products/category/jewelery`
         })
     }),
 })

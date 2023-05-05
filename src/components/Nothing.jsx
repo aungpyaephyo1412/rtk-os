@@ -5,7 +5,7 @@ const Nothing = () => {
     return(
         <section className='min-h-screen flex justify-center items-center'>
             <div className='flex justify-center items-center flex-col gap-y-10'>
-                <div className='text-6xl font-bold text-cyan-600'>
+                <div className='text-6xl font-bold text-cyan-600 text-center'>
                     Products not found
                 </div>
                 <button
